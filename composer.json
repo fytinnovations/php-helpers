@@ -15,5 +15,8 @@
         "files": [
             "src/helpers.php"
         ]
+    },
+    "require-dev": {
+        "pestphp/pest": "^0.2.3"
     }
 }
