@@ -14,8 +14,8 @@ if (!function_exists('getContrastingColor')) {
         $b = hexdec(substr($color, 5, 2));
 
         if ($r + $g + $b > 382) {
-            return '#FFFFFF';
+            return '#000000';
         }
-        return '#000000';
+        return '#FFFFFF';
     }
 }
