@@ -1,22 +1,23 @@
 {
-    "name": "fytinnovations/php-helpers",
-    "description": "Common php helper functions we use in our projects",
-    "type": "library",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "authors": [
-        {
-            "name": "Fytinnovations",
-            "email": "hello@fytinnovations.com"
-        }
-    ],
-    "require": {},
-    "autoload": {
-        "files": [
-            "src/helpers.php"
-        ]
-    },
-    "require-dev": {
-        "pestphp/pest": "^0.2.3"
+  "name": "fytinnovations/php-helpers",
+  "description": "Common php helper functions we use in our projects",
+  "type": "library",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fytinnovations",
+      "email": "hello@fytinnovations.com"
     }
+  ],
+  "require": {},
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "require-dev": {
+    "pestphp/pest": "^0.2.3"
+  }
 }
